@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+"""
+City Module
+"""
+from models.base_model import BaseModel
+
+
+class City(BaseModel):
+    """
+    state_id: empty string: it will be the State.id
+    name: string - empty string
+    """
+    city_id = ""
+    name = ""
